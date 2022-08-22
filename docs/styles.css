@@ -1,0 +1,107 @@
+html{
+  font-size: 10px;
+  background-color: #0b2339;
+}
+body{
+  padding:0;
+  margin:0;
+}
+*{
+  font-family: 'Josefin Sans', sans-serif;
+  box-sizing: border-box;
+}
+.header{
+  background:white;
+  border-radius: 20px;
+  padding:1rem;
+  width: 100%;
+  display:block;
+  text-align: center;
+}
+h1{
+  margin: 1.5rem auto 1rem auto;
+  font-size: 4rem;
+  display:block;
+}
+.header p{
+  margin:0 auto;
+  font-size: 2rem;
+  padding:0;
+}
+
+main{
+  background-color:rgb(254, 213, 0);
+  border: 2rem solid rgb(254, 213, 0);
+  border-radius: 20px;
+  margin: auto auto;
+  max-width:900px;
+  width:100%;
+}
+figure{
+  background: white;
+  border-radius: 20px;
+  margin: 2rem auto;
+  padding: 2rem;
+  width:100%;
+  align-items: center;
+}
+figcaption{
+  font-size: 2rem;
+  width:100%;
+  padding: 1.5rem 0 0 0;
+  text-align: center;
+  margin: 0 auto;
+  display:block;
+}
+img{
+  border: 2px solid white;
+  border-radius: 20px;
+  display:block;
+  min-width: 50%;
+  max-width:800px;
+  width:100%;
+  height:auto;
+  margin:0 auto;
+}
+#tribute-info{
+  background-color: white;
+  padding: 2rem;
+  border-radius: 20px;
+}
+h2{
+  margin: 0 auto;
+  text-align: center;
+  display:block;
+  padding: 1rem;
+  font-size: 2.5rem;
+}
+#tribute-info ul{
+  margin: 0 auto;
+  padding:2rem;
+  display: block;
+  width: 100%;
+}
+#tribute-info>ul>li{
+  margin: 0 auto;
+  font-size: 1.75rem;
+}
+#tribute-info>ul>li:not(:first-of-type){
+  margin: 2rem auto;
+}
+a:visited{
+  color: rgb(193, 9, 9)
+}
+a:hover{
+  color:rgb(255, 153, 0);
+}
+a{
+  color: rgb(1, 35, 50);
+}
+h3{
+  margin: 0 auto;
+  width: 100%;
+  display:block;
+  text-align: left;
+  padding: 0 2rem;
+  font-size: 2rem;
+}
